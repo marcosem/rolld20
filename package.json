@@ -1,6 +1,54 @@
 {
-  "name": "Rolld20",
+  "name": "rolld20",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "repository": "https://github.com/marcosem/rolld20.git",
+  "author": "Marcos Mathias <marcos-github@memathias.com>",
+  "decription": "A simple tool designed to roll dices, of any side d2 (flip coin), d3, d4, d6, d8, d12, d20, d30, d60, d100, d1000, and jan-ken-po.",
+  "keywords": [
+    "dice",
+    "roll",
+    "d2",
+    "d3",
+    "d4",
+    "d6",
+    "d8",
+    "d10",
+    "d12",
+    "d20",
+    "d30",
+    "d60",
+    "d100",
+    "d1000",
+    "jan-ken-po",
+    "rock",
+    "paper",
+    "scissors",
+    "bomb"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-import-resolver-typescript": "^2.4.0",
+    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.5.2",
+    "typescript": "4.1.5"
+  },
+  "files": [
+    "dist/**/*"
+  ]
 }
