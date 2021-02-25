@@ -1,6 +1,6 @@
 {
   "name": "rolld20",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "repository": "https://github.com/marcosem/rolld20.git",
   "author": "Marcos Mathias <marcos-github@memathias.com>",
   "decription": "A simple tool designed to roll dices, of any side d2 (flip coin), d3, d4, d6, d8, d12, d20, d30, d60, d100, d1000, and jan-ken-po.",

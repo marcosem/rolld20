@@ -6,3 +6,4 @@ prettier.config.js
 .editorconfig
 .eslintignore
 .jest.config.js
+/dist/__tests__
