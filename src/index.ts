@@ -74,12 +74,32 @@ function janKenPo(includeBomb = false): string {
   return jkpArray[jkp];
 }
 
-interface IJAnKenPoPlayers {
+/*
+interface IJanKenPoPlayers {
   player1: 'rock' | 'paper' | 'scissors' | 'bomb';
   player2: 'rock' | 'paper' | 'scissors' | 'bomb';
 }
+*/
 
-function compareJanKenPo({ player1, player2 }: IJAnKenPoPlayers): number {
+function compareJanKenPo(player1: string, player2: string): number {
+  if (
+    player1 !== 'rock' &&
+    player1 !== 'paper' &&
+    player1 !== 'scissors' &&
+    player1 !== 'bomb'
+  ) {
+    return -100;
+  }
+
+  if (
+    player2 !== 'rock' &&
+    player2 !== 'paper' &&
+    player2 !== 'scissors' &&
+    player2 !== 'bomb'
+  ) {
+    return -100;
+  }
+
   if (player1 === player2) return 0;
 
   if (

@@ -148,9 +148,9 @@ janKenPo(true); // return a string: 'rock', 'paper', 'scissors', or 'bomb' at ra
 import { compareJanKenPo } from 'rolld20'
 
 // Compare two jan-ken-po ✊✋✌️👍 x ✊✋✌️👍
-compareJanKenPo({player1: 'paper', player2: 'bomb'}); // return 1 (bomb beats paper)
-compareJanKenPo({player1: 'scissor', player2: 'paper'}); // return -1 (scissors beats papaer)
-compareJanKenPo({player1: 'rock', player2: 'rock'}); // return 0 (it's a tie)
+compareJanKenPo('paper', 'bomb'); // return 1 (bomb beats paper)
+compareJanKenPo('scissor', 'paper'); // return -1 (scissors beats papaer)
+compareJanKenPo('rock', 'rock'); // return 0 (it's a tie)
 ```
 
 
