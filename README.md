@@ -1,12 +1,11 @@
 # Roll d20 🎲
 
+A simple tool designed to roll dices, of any side: d2 (flip coin), d3, d4, d6, d8, d12, d20, d30, d60, d100, d1000, and jan-ken-po.
+
 ```
 npm i rolld20
 yarn add rolld20
 ```
-
-A simple tool designed to roll dices, of any side d2 (flip coin), d3, d4, d6, d8, d12, d20, d30, d60, d100, d1000, and jan-ken-po.
-
 
 ## Usage
 
